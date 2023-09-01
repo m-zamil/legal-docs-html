@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212121;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #212121;
+  font-weight: 700;
+}
+h1 {
+  font-size: 1.25rem;
+  margin: 1.5em 0;
+}
+h2 {
+  font-size: 1rem;
+  margin: 1.5em 0 1em;
+}
+p {
+  font-size: 0.75rem;
+  margin: 1 0 1.5em;
+}
+address {
+  font-style: normal;
+}
+th,
+td {
+  font-size: 0.75rem;
+}
+.table-wrapper {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid lightgray;
+  vertical-align: top;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+}
+.center {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  th,
+  td {
+    font-size: 1rem;
+    padding: 24px;
+  }
+}
+@media (min-width: 940px) {
+  .wrapper {
+    max-width: 842px;
+  }
+}
